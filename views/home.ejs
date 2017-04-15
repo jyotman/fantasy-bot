@@ -1,0 +1,73 @@
+<!DOCTYPE HTML>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="/stylesheets/home.css" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+
+    <script>
+        window.fbAsyncInit = function () {
+            FB.init({
+                appId: "1261757857215437",
+                xfbml: true,
+                version: "v2.8"
+            });
+        };
+
+        (function (d, s, id) {
+            let js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id))
+                return;
+            js = d.createElement(s);
+            js.id = id;
+            js.src = "//connect.facebook.net/en_US/sdk.js";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <title>Fantasy Premier League Bot</title>
+</head>
+<body>
+<div style="margin-left: 5%; margin-right: 5%">
+    <h1 style="text-align: center">Fantasy Premier League Bot</h1>
+
+    <p>A Facebook bot to get current team scores and your team ranking for all the leagues your are participating in
+        with just a single command.</p>
+
+    <p>You only need to submit your team's ID once and the bot will save it for you.</p>
+
+    <p>To start using, obtain your fantasy team's ID by visiting
+        <a href="https://fantasy.premierleague.com" target="_blank">fantasy.premierleague.com</a> and logging in. After
+        that
+        go to the <strong>Points</strong> tab and your team's ID will be visible in the URL in your browser's address
+        bar.
+    </p>
+
+    <div style="text-align: center; margin-top: 5%; margin-bottom: 3%"><img style="max-width: 100%" src="/images/team-screenshot.png"></div>
+
+    <p>This is your team's ID. Simply copy it and give it to the bot with the command - <strong>login &lt;TEAM
+            ID&gt;</strong>. In the above case it would be <strong>login 2959370</strong>.</p>
+
+    <p>We do not ask for any personal or sensitive information like email or passwords. Your team's ID is a public ID.
+        Anyone can view any team by simply putting a team's ID in the form of the URL given in the image. This is
+        completely
+        public data.</p>
+
+    <h3 style="text-align: center; margin-top: 5%">Launch the bot - </h3>
+
+
+    <div style="text-align: center">
+        <div class="fb-messengermessageus" messenger_app_id="1261757857215437" page_id="341862696190397" color="blue"
+             size="xlarge"></div>
+    </div>
+
+    <h3 style="text-align: center; margin-top: 5%">Or scan this Messenger code - </h3>
+
+    <div style="text-align: center"><img style="max-width: 100%; max-height: 300px" src="/images/messenger-code.png">
+    </div>
+
+</div>
+</body>
+</html>
