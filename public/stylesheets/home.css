@@ -1,3 +1,28 @@
 h1, h3, p {
     font-family: Montserrat;
 }
+
+body {
+    margin: 0;
+}
+
+footer {
+    background: #424242;
+    height: 60px;
+    color: #ffffff;
+    margin-top: 30px;
+    margin-bottom: -16px;
+}
+
+footer p {
+    vertical-align: middle;
+    height: 60px;
+    font-size: 14px;
+    padding-left: 30px;
+    display: table-cell;
+}
+
+footer a {
+    text-decoration: none;
+    color: #0084ff;
+}
